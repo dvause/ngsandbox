@@ -1,1 +1,1 @@
-angular.module('seed.common.models', []);
+angular.module('common.models', []);
