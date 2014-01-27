@@ -2,7 +2,10 @@ angular.module('seed', [
   'common',
   'event-dispatcher',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'seed.hello',
+  'templates-app',
+  'templates-common'
 ])
 
   .constant('foo', 'bar')
