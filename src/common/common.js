@@ -1,5 +1,5 @@
-angular.module('seed.common', [
+angular.module('common', [
   'common.models',
-  'commons.logging'
+  'common.logging'
 ]);
 
