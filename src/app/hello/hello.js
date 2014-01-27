@@ -12,9 +12,8 @@ angular.module('seed.hello', [
     ;
   })
 
-  .controller('HelloController', function HelloController($log) {
+  .controller('HelloController', function HelloController() {
     var helloCtrl = this;
-    $log.debug(helloCtrl)
     helloCtrl.hello = "Hello, World!";
   })
 
