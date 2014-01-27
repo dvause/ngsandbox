@@ -7,5 +7,5 @@ Seed to create new angularjs projects built with grunt
 
 Credits
 ------------------
-* Concept by [Joel Hooks](https://github.com/joelhooks)
-** [grunt-index-html-template](https://github.com/joelhooks/grunt-index-html-template.git)
+* [Joel Hooks](https://github.com/joelhooks)
+* [grunt-index-html-template](https://github.com/joelhooks/grunt-index-html-template.git)
