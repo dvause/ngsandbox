@@ -33,9 +33,9 @@ module.exports = {
       'vendor/moment/moment.js'
     ],
     css: [
+      'vendor/bootstrap/dist/css/bootstrap.css'
     ],
     assets: [
-      'vendor/strobe/**/*'
     ]
   }
 };
