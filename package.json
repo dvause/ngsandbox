@@ -1,0 +1,23 @@
+{
+  "name": "angular-grunt-seed",
+  "version": "0.0.1",
+  "description": "Seed used to create new angularjs projects built with grunt",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvause/angular-grunt-seed.git"
+  },
+  "author": "Dave Vause",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvause/angular-grunt-seed/issues"
+  },
+  "homepage": "https://github.com/dvause/angular-grunt-seed"
+}

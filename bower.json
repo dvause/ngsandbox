@@ -1,0 +1,24 @@
+{
+  "name": "angular-grunt-seed",
+  "version": "0.0.1",
+  "authors": [
+    "David Vause <dvause@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "angular-ui-router": "~0.2.8",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+
+  }
+}
