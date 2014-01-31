@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html ng-app="seed">
+<html ng-app="ngsandbox" ng-controller="AppController">
 <head>
-  <title>AngularJS Seed</title>
+  <title>ngSandbox</title>
   <% styles.forEach( function ( file ) { %>
   <link rel="stylesheet" type="text/css" href="<%= file %>"/>
   <% }); %>
 </head>
 <body>
 
-<div ui-view></div>
+<div class="container">
+  <div ui-view></div>
+</div>
 
 <% scripts.forEach( function ( file ) { %>
 <script type="text/javascript" src="<%= file %>"></script>

@@ -1,9 +1,9 @@
-angular.module('seed', [
+angular.module('ngsandbox', [
   'common',
   'event-dispatcher',
   'ui.router',
   'ui.bootstrap',
-  'seed.hello',
+  'ngsandbox.hello',
   'templates-app',
   'templates-common'
 ])
@@ -14,7 +14,7 @@ angular.module('seed', [
     $urlRouterProvider.otherwise('/');
   })
 
-  .controller('AppCtrl', function AppCtrl($scope, DispatchingController) {
+  .controller('AppController', function AppController($scope, DispatchingController) {
     var appCtrl = this;
     angular.extend(appCtrl, new DispatchingController($scope));
   })

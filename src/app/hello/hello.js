@@ -1,4 +1,4 @@
-angular.module('seed.hello', [
+angular.module('ngsandbox.hello', [
   'ui.router'
 ])
 
