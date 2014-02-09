@@ -4,7 +4,7 @@ angular.module('ngsandbox.hello', [
 
   .config(function ($stateProvider) {
     $stateProvider
-      .state('hello', {
+      .state('main.hello', {
         url: '/',
         templateUrl: 'hello/hello.tpl.html',
         controller: 'HelloController as hello'
